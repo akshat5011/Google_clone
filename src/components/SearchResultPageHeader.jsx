@@ -16,6 +16,7 @@ export default function SearchResultPageHeader() {
             width={92}
             height={30}
             alt="Google logo"
+            className="object-cover hidden md:block"
           />
         </Link>
         <div className="flex-1">
@@ -26,7 +27,7 @@ export default function SearchResultPageHeader() {
           <RiSettings3Line className="header-icon" />
           <TbGridDots className="header-icon" />
         </div>
-        <button className="bg-blue-600 text-white px-4 py-2 rounded-full font-medium ml-3 hover:brightness-110 hover:shadow-md  transition-shadow ">
+        <button className="bg-blue-600 text-white px-4 py-2 rounded-full font-medium ml-3 hover:brightness-110 hover:shadow-md  transition-shadow object-cover hidden md:block ">
           Sign In
         </button>
       </div>
