@@ -13,9 +13,9 @@ export default function HomeHeader() {
           Images
         </Link>
         <TbGridDots
-          className="bg-transparent hover:bg-gray-200 rounded-full p-2 text-4xl"
+          className="header-icon"
         />
-        <button className="bg-blue-600 text-white px-4 py-2 rounded-md font-medium  hover:brightness-110 hover:shadow-md  transition-shadow ">
+        <button className="bg-blue-600 text-white px-4 py-2 rounded-full font-medium  hover:brightness-110 hover:shadow-md  transition-shadow ">
             Sign In
         </button>
       </div>
