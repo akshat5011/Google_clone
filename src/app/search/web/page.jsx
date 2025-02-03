@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export default async function WebSearchPage({ searchParams }) {
+  await new Promise((resolve) => setTimeout(resolve, 2000));
   const searchpara = await searchParams;
   const startIndex = searchpara.start || "1";
   const searchTerm = searchpara.searchTerm;
