@@ -1,4 +1,3 @@
-export const dynamic = "force-dynamic";
 import ImageSearchResult from "@/components/ImageSearchResult";
 import Link from "next/link";
 import React from "react";
